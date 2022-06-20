@@ -1,5 +1,5 @@
 ---
-title: "R Markdown Paths"
+title: "R Markdown Working Directory"
 output: html_document
 ---
 
