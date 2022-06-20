@@ -2,7 +2,10 @@
 
 Get started via 
 
-`usethis::use_course("https://github.com/rstats-wtf/wtf-fix-paths/archive/master.zip")`
+```r
+usethis::use_course("rstats-wtf/wtf-fix-paths")
+```
+
 
 This project contains
 
