@@ -4,7 +4,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(error = TRUE)
 ```
 
 
@@ -14,7 +14,7 @@ Modify the code as needed.
 
 ```{r}
 # 1 absolute paths -------------------------------------------------------------
-dat_1 <- read.csv("/Users/Kara/teaching-and-workshops/wtf-fix-paths/data/installed-packages.csv")
+dat_1 <- read.csv("C:/Users/pileggis/Documents/gh-personal/wtf-fix-paths/data/installed-packages.csv")
 head(dat_1)
 ```
 

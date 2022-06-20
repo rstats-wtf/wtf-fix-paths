@@ -1,13 +1,24 @@
+# 0 notes -----------------------------------------------------------------------
+#
+# Do not modify the working directory via setwd() for these exercises
+#
+# Restart R via:
+# Session ->  Restart R, or
+# Ctrl + Shift + F10 (Windows),
+# Cmd + Shift + 0 / Cmd + Shift + F10 (Mac)
+
+
+
 # 1 absolute paths -------------------------------------------------------------
 # Modify the code to import the data using absolute paths.
-dat <- read.csv("/Users/Kara/teaching-and-workshops/wtf-fix-paths/data/installed-packages.csv")
+dat <- read.csv("C:/Users/pileggis/Documents/gh-personal/wtf-fix-paths/data/installed-packages.csv")
 
 # View data
 View(dat)
 
 
 # 2 relative path (working directory) ------------------------------------------
-# Session ->  Restart R OR Ctrl + Shift + F10
+# Restart R
 # Modify this code to import data from the correct working directory.
 # .. means "one folder up from wherever I am"
 dat <- read.csv("../data/installed-packages.csv")
@@ -17,7 +28,7 @@ nrow(dat)
 
 
 # 3 relative path (project directory) ------------------------------------------
-# Session ->  Restart R OR Ctrl + Shift + F10
+# Restart R
 # Modify this code using the here package to import the data.
 dat <- read.csv(here::here("installed-packages.csv"))
 
