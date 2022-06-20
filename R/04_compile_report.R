@@ -1,4 +1,5 @@
-# This loads the data relative to the project directory. It should work as-is.
+# This uses option 2 relative path (working directory).
+# It should work as-is when executing from the script.
 # However, you can also "knit" .R files to compile them into reports. Select
 # File -> Compile Report..., or click the Compile Report button that looks like
 # a little notebook. What happens then?
