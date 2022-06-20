@@ -1,5 +1,9 @@
 # wtf-fix-paths
 
+Get started via 
+
+`usethis::use_course(https://github.com/rstats-wtf/wtf-explore-libraries/archive/master.zip)`
+
 This project contains
 
 * `data/` directory - data to import in exercises
