@@ -15,12 +15,10 @@ This project contains
 
 Work through the `R/` directory exercises in the named order (`01`, `02`, etc. ).
 
-Remember to restart R as indicated:
+Remember to restart R as indicated. In the RStudio IDE:
 
 * Session ->  Restart R, or
 
 * Ctrl + Shift + F10 (Windows),
 
 * Cmd + Shift + 0 / Cmd + Shift + F10 (Mac)
-
- 
