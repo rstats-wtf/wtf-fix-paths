@@ -31,3 +31,4 @@ dat_3 <- read.csv(here::here("installed-packages.csv"))
 head(dat_3)
 ```
 
+Knit this document to confirm the data has been read in.
