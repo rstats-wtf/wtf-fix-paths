@@ -27,8 +27,12 @@ head(dat_2)
 
 ```{r}
 # 3 relative path (project directory) ------------------------------------------
-dat_3 <- read.csv(here::here("installed-packages.csv"))
+dat_3 <- read.csv("data/installed-packages.csv")
 head(dat_3)
 ```
 
 Knit this document to confirm the data has been read in.
+
+If your paths are working correctly, you knitted document should match the screenshot
+in `img/03_expected.PNG`.
+
