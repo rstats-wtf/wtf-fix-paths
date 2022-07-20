@@ -20,8 +20,7 @@ View(dat)
 # 2 relative path (working directory) ------------------------------------------
 # Restart R
 # Modify this code to import data from the correct working directory.
-# .. means "one folder up from wherever I am"
-dat <- read.csv("../data/installed-packages.csv")
+dat <- read.csv("installed-packages.csv")
 
 # Count packages in the data set
 nrow(dat)
