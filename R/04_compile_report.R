@@ -5,7 +5,7 @@
 # a little notebook. What happens then?
 #
 # Can you update this script to use `here::here()`?
-dat <- read.csv("data/installed-packages.csv")
+dat <- read.csv("installed-packages.csv")
 
 # View a summary of the data
 summary(dat)
