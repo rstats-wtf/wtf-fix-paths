@@ -1,0 +1,31 @@
+---
+title: "Quarto Working Directory"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is an Quarto file. It contains text (which you are reading), as well as R code.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+Before you knit the document, write down your predictions of what the following code will return.
+
+```{r check-wd}
+getwd()
+```
+
+```{r change-wd}
+setwd("..") # .. means "one folder up from wherever I am"
+getwd()
+```
+
+```{r check-again}
+getwd()
+```
+
+Now that you have your predictions, knit this document to see
+if you were correct! If you see something different than you anticipated,
+discuss with your neighbors or a workshop TA.

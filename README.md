@@ -13,7 +13,11 @@ This project contains
 
 * `R/` directory - files to execute and modify as needed
 
-Work through the `R/` directory exercises in the named order (`01`, `02`, etc. ).
+Work through the `R/` directory exercises in the named order (`01`, `02`, `03`).
+
+Note that both `02` & `03` have a quarto and rmarkdown version - feel
+free to explore both or choose one.
+
 
 Remember to restart R as indicated. In the RStudio IDE:
 

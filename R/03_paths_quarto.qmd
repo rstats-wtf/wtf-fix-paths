@@ -1,0 +1,40 @@
+---
+title: "Quarto Paths"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(error = TRUE)
+```
+
+
+Now try to import the data by the methods demonstrated in script `01_paths_scripts.R`.
+
+Modify the code as needed. 
+
+```{r}
+# 1 absolute paths -------------------------------------------------------------
+dat_1 <- read.csv("C:/Users/pileggis/Documents/gh-personal/wtf-fix-paths/data/installed-packages.csv")
+head(dat_1)
+```
+
+```{r}
+# 2 relative path (working directory) ------------------------------------------
+# (Don't use the here package.)
+dat_2 <- read.csv("installed-packages.csv")
+head(dat_2)
+```
+
+
+```{r}
+# 3 relative path (project directory) ------------------------------------------
+# (Use the here package.)
+dat_3 <- read.csv("installed-packages.csv")
+head(dat_3)
+```
+
+Knit this document to confirm the data has been read in.
+
+If your paths are working correctly, you knitted document should match the screenshot
+in `img/03_solutions.PNG`.
+
