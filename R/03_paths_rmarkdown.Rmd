@@ -21,7 +21,7 @@ head(dat_1)
 ```{r}
 # 2 relative path (working directory) ------------------------------------------
 # (Don't use the here package.)
-dat_2 <- read.csv("installed-packages.csv")
+dat_2 <- read.csv("../data/installed-packages.csv")
 head(dat_2)
 ```
 
@@ -29,7 +29,7 @@ head(dat_2)
 ```{r}
 # 3 relative path (project directory) ------------------------------------------
 # (Use the here package.)
-dat_3 <- read.csv("installed-packages.csv")
+dat_3 <- read.csv(here::here("data", "installed-packages.csv"))
 head(dat_3)
 ```
 

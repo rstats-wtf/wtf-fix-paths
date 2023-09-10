@@ -21,7 +21,7 @@ View(dat)
 # Restart R
 # Modify this code to import data from the correct working directory.
 # (Don't use the here package.)
-dat <- read.csv("installed-packages.csv")
+dat <- read.csv("data/installed-packages.csv")
 
 # Count packages in the data set
 nrow(dat)
@@ -30,7 +30,7 @@ nrow(dat)
 # 3 relative path (project directory) ------------------------------------------
 # Restart R
 # Modify this code using the here package to import the data.
-dat <- read.csv("installed-packages.csv")
+dat <- read.csv(here::here("data", "installed-packages.csv"))
 
 # View first 6 observations
 head(dat)
