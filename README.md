@@ -26,3 +26,8 @@ Remember to restart R as indicated. In the RStudio IDE:
 * Ctrl + Shift + F10 (Windows),
 
 * Cmd + Shift + 0 / Cmd + Shift + F10 (Mac)
+
+
+Solutions to exercises can be seen here:
+
+[https://github.com/rstats-wtf/wtf-fix-paths/pull/4/files](https://github.com/rstats-wtf/wtf-fix-paths/pull/4/files)
