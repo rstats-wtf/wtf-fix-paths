@@ -35,6 +35,6 @@ head(dat_3)
 
 Knit this document to confirm the data has been read in.
 
-If your paths are working correctly, you knitted document should match the screenshot
+If your paths are working correctly, you rendered document should match the screenshot
 in `img/03_solutions.PNG`.
 
